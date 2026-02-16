@@ -1,10 +1,3 @@
-# README.md 통합 개선안
-
-기존 `README.md`의 **알찬 내용(상세 기능, API, 폴더 구조, 가이드)**을 모두 살리면서,
-요청하신 **세련된 스타일(뱃지, 표, 레이아웃)**을 적용하여 재구성했습니다.
-
----
-
 # 📘 READMEEE
 
 > **"Read Me, Read My Log"**<br>
@@ -16,7 +9,7 @@
 
 ## 📅 Project Overview
 
-*   **개발 기간**: 2024.12 ~ 
+*   **개발 기간**: 2025.11 ~ 2025.12
 *   **주요 컨셉**:
     *   **Daily Question**: Claude 3.7 AI가 매일 새로운 질문을 생성합니다.
     *   **Deep Connection**: 24시간 후 비공개되는 글을 통해 "지금 이 순간"에 집중합니다.
@@ -213,7 +206,7 @@ npm run dev
 | 이름 | 역할 | 담당 업무 |
 | :--- | :--- | :--- |
 | **류지우** | Full Stack | **BE**: AI 질문 생성, 주간 베스트 로직, 소셜 로그인<br>**FE**: 프로필/아카이빙 UI, API 통신 모듈 |
-| **양혜지** | Full Stack | **FE**: Masonry 피드, Connecting Dots 시각화, PWA<br>**BE**: 이미지 업로드 Fallback 시스템, 통계 API |
+| **양혜지** | Full Stack | **Architecture & Tech**<br>• **Smart Storage Fallback**: 환경 감지형 하이브리드(Local/S3) 이미지 처리 시스템<br>• **Data Visualization**: SVG/CSS3D 기반의 'Connecting Dots' 시각화 엔진 개발<br>• **Analytics**: 사용자 체류 시간 분석 및 NLP 기반 워드클라우드 통계 API |
 
 > [!NOTE]
 > 본 프로젝트는 프론트엔드와 백엔드의 구분 없이, 전 팀원이 **풀스택(Full Stack)**으로 긴밀하게 협업하여 완성했습니다.
