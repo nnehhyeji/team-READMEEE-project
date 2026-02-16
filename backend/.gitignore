@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+
+.DS_Store
+**/.DS_Store
+
+# Django
+# db.sqlite3
+# media/
+# staticfiles/
+
+# Environment (보안 필수!)
+.env
+venv/
+.venv/
+
+# Sensitive Data (보안 필수!)
+data.json
+total_data.json

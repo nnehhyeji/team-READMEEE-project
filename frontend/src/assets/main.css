@@ -1,0 +1,37 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+@layer base {
+  html {
+    font-family: 'Pretendard', sans-serif;
+    background: linear-gradient(135deg, theme('colors.primary.50') 0%, theme('colors.primary.100') 100%);
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  body {
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-1.5 bg-slate-900 text-white font-bold rounded-full text-xs hover:bg-slate-800 transition-all shadow-md active:scale-95;
+  }
+  .btn-secondary {
+    @apply px-4 py-1.5 bg-white text-slate-600 font-bold rounded-full text-xs border border-slate-200 hover:bg-slate-50 transition-all active:scale-95;
+  }
+}

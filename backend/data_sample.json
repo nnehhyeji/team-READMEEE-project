@@ -1,0 +1,76 @@
+[
+    {
+        "model": "accounts.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$mock_hash_value_for_security$mock_salt",
+            "last_login": "2025-12-25T10:00:00Z",
+            "is_superuser": true,
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-12-01T09:00:00Z",
+            "username": "admin",
+            "email": "admin@example.com",
+            "bio": "Administrator account",
+            "profile_image": "",
+            "consecutive_days": 0,
+            "max_consecutive_days": 0,
+            "noti_likes": true,
+            "noti_comments": true,
+            "noti_follows": true,
+            "noti_weekly": true,
+            "noti_daily": false,
+            "created_at": "2025-12-01T09:00:00Z",
+            "updated_at": "2025-12-01T09:00:00Z",
+            "provider": "email",
+            "provider_id": null,
+            "social_access_token": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$mock_hash_value_for_security$mock_salt",
+            "last_login": "2025-12-25T11:00:00Z",
+            "is_superuser": false,
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2025-12-02T10:00:00Z",
+            "username": "user1",
+            "email": "user1@example.com",
+            "bio": "Hello World!",
+            "profile_image": "",
+            "consecutive_days": 5,
+            "max_consecutive_days": 10,
+            "noti_likes": true,
+            "noti_comments": true,
+            "noti_follows": true,
+            "noti_weekly": true,
+            "noti_daily": true,
+            "created_at": "2025-12-02T10:00:00Z",
+            "updated_at": "2025-12-25T12:00:00Z",
+            "provider": "email",
+            "provider_id": null,
+            "social_access_token": null,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "questions.question",
+        "pk": 1,
+        "fields": {
+            "content": "오늘 가장 기억에 남는 순간은?",
+            "category": "daily",
+            "rec_title": "기억을 걷는 시간",
+            "rec_artist": "넬(Nell)",
+            "rec_reason": "하루 중 가장 선명하게 떠오른 한 장면을, 몽환적인 사운드와 함께 천천히 되감아 볼 수 있게 합니다.",
+            "rec_video_id": "QnqVpRDaQ90",
+            "release_date": "2025-12-04",
+            "created_at": "2025-12-04T08:41:06.846Z"
+        }
+    }
+]
