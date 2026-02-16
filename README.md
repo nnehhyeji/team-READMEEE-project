@@ -1,15 +1,18 @@
-# 📘 READMEEE
+# 🏠 READMEEE
 
 > **"Read Me, Read My Log"**<br>
 > 매일 AI가 건네는 질문에 답하며 나를 기록하고, 타인과 연결되는 소셜 다이어리 플랫폼
 
 <br>
 
----
-
 ## 📅 Project Overview
+*   **개발 기간**: 2025. 12. 05 ~ 2025. 12. 26 (3주)
+*   **개발 인원**: 2명
+*   **주관**: 삼성 청년 SW·AI 아카데미 (SSAFY) 14기
+*   **플랫폼**: Web / PWA (Mobile Web)
 
-*   **개발 기간**: 2025.11 ~ 2025.12
+<br>
+
 *   **주요 컨셉**:
     *   **Daily Question**: Claude 3.7 AI가 매일 새로운 질문을 생성합니다.
     *   **Deep Connection**: 24시간 후 비공개되는 글을 통해 "지금 이 순간"에 집중합니다.
