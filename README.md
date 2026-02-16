@@ -206,7 +206,7 @@ npm run dev
 | 이름 | 역할 | 담당 업무 |
 | :--- | :--- | :--- |
 | **류지우** | Full Stack | **BE**: AI 질문 생성, 주간 베스트 로직, 소셜 로그인<br>**FE**: 프로필/아카이빙 UI, API 통신 모듈 |
-| **양혜지** | Full Stack | **Architecture & Tech**<br>• **Smart Storage Fallback**: 환경 감지형 하이브리드(Local/S3) 이미지 처리 시스템<br>• **Data Visualization**: SVG/CSS3D 기반의 'Connecting Dots' 시각화 엔진 개발<br>• **Analytics**: 사용자 체류 시간 분석 및 NLP 기반 워드클라우드 통계 API |
+| **양혜지** | Full Stack | **BE**: Smart Storage Fallback (Local/Cloud), 체류 시간 분석 및 NLP 통계 API<br>**FE**: SVG/CSS3D 기반 Connecting Dots 시각화 엔진, Masonry 레이아웃 최적화 |
 
 > [!NOTE]
 > 본 프로젝트는 프론트엔드와 백엔드의 구분 없이, 전 팀원이 **풀스택(Full Stack)**으로 긴밀하게 협업하여 완성했습니다.
