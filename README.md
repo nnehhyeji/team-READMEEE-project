@@ -198,7 +198,9 @@ pip install -r requirements.txt
 python manage.py migrate
 
 # 데이터 로드 (초기 데이터 복원)
-# 주의: db.sqlite3는 gitignore에 포함되므로, 제출된 total_data.json을 통해 데이터를 복구해야 합니다.
+# 주의: db.sqlite3 및 원본 데이터 파일(total_data.json)은 보안상 gitignore에 포함되어 있습니다.
+# 따라서, 별도로 제공된 데이터 파일(total_data.json)을 프로젝트 루트(backend/)에 위치시킨 후 아래 명령어를 실행하세요.
+
 # total_data.json은 sqlite3 사용 시, 해당 파일로 loaddata
 python manage.py loaddata total_data.json
 # data.json은 postgresql 사용 시, 해당 파일로 loaddata
