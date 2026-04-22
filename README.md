@@ -119,11 +119,86 @@
 
 ---
 
+## 🖥️ Web Screens
+
+### 1. Daily Question
+<table>
+  <tr>
+    <th width="50%">Landing</th>
+    <th width="50%">Main</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="README_IMG/landing.png" alt="Daily Question Landing" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <img src="README_IMG/main.png" alt="Daily Question Main" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 2. Main Feed
+<p align="center">
+  <img src="README_IMG/feed.png" alt="Main Feed" width="90%">
+</p>
+
+### 3. Music Recommendation
+<p align="center">
+  <img src="README_IMG/write.png" alt="Music Recommendation" width="90%">
+</p>
+
+### 4. Weekly Best
+<p align="center">
+  <img src="README_IMG/weekly.png" alt="Weekly Best" width="90%">
+</p>
+
+### 5. My Page
+<table>
+  <tr>
+    <th width="33.33%">My Page</th>
+    <th width="33.33%">My Feed</th>
+    <th width="33.33%">Calendar</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="README_IMG/mypage.png" alt="My Page" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <img src="README_IMG/myfeed.png" alt="My Feed" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <img src="README_IMG/cal.png" alt="Calendar" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 6. Statistics
+<table>
+  <tr>
+    <th width="33.33%">Stats</th>
+    <th width="33.33%">Emotion</th>
+    <th width="33.33%">Connecting The Dots</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <img src="README_IMG/stats.png" alt="Statistics" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <img src="README_IMG/emotion.png" alt="Emotion Statistics" width="100%">
+    </td>
+    <td align="center" valign="top">
+      <img src="README_IMG/ctd.png" alt="Connecting The Dots" width="100%">
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🏗️ System Architecture
 
 <p align="center">
   <!-- 아키텍처 다이어그램 이미지가 있다면 여기에 경로를 넣어주세요. -->
-  <img src="README_IMG/아키텍처.png" alt="System Architecture" width="90%">
+  <img src="README_IMG/system_architecture.png" alt="System Architecture" width="90%">
   <br>
   <em>(프론트엔드 - 백엔드 - AI 서비스 - DB 간 데이터 흐름도)</em>
 </p>
